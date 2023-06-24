@@ -6,11 +6,11 @@ body{
 
 }
 .hero{
-    background-image: url("images/bg-header-desktop.png");
+    background-image: url('/images/bg-header-desktop.png');
     background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 60px;
+  
 }
 .hero .logo{
     margin-top: 60px;
@@ -71,4 +71,33 @@ font-weight: 600;
 .features-points p{
     color: hsl(201, 11%, 66%);
 
+}
+.display-section{
+    margin-top: 100px;
+}
+
+.experience-section{
+    margin-top: 200px;
+}
+.clipboard-section{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.footer-section{
+    background-color: hsl(201, 11%, 66%);
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-logo img{
+    width: 75px;
+    height: 75px;
+}
+.link-section a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+.social-bt img{
+    padding-left: 8px;
 }
